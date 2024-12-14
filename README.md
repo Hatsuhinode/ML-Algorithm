@@ -8,12 +8,18 @@ This repository is designed to help users understand, implement, and experiment 
 
 ## 📘 Overview
 
+Here's the updated version of your **Overview** and **Notebooks Overview**, reflecting the changes in the repository structure:
+
+---
+
+## 📘 Overview
 The repository is structured into specific sections, each targeting fundamental machine learning techniques:
 
-1. **Linear Regression**: This section focuses on different approaches to solving linear regression problems, including both the normal equation and gradient descent.
-2. **Gradient Descent**: Here, the focus is on understanding and applying various gradient descent optimization techniques, including batch, stochastic, and mini-batch gradient descent.
-3. **Polynomial Regression**: This section introduces polynomial regression and regularized models like Ridge, Lasso, and Elastic Net, as well as the use of learning curves to evaluate models.
-4. **Classification**: This section covers various classification techniques, including binary and multiclass classification, performance evaluation, and error analysis.
+- **Linear Regression**: This section focuses on different approaches to solving linear regression problems, including both the normal equation and gradient descent-based optimization.
+- **Machine Learning Landscape**: This section demonstrates simple machine learning tasks, such as housing data analysis and model evaluation, providing insights into the broader landscape of machine learning applications.
+- **Polynomial Regression**: This section introduces polynomial regression, regularized models like Ridge, Lasso, and Elastic Net, as well as the use of learning curves to evaluate model performance.
+- **Classification**: This section covers various classification techniques, including binary and multiclass classification, performance evaluation, and error analysis.
+
 
 ---
 
@@ -44,32 +50,22 @@ Each notebook focuses on specific topics, allowing users to explore machine lear
 
 ## 📚 Notebooks Overview
 
-### Linear Regression
-
+### **Linear Regression**
 - **Linear_Regression_Normal_Equation.ipynb**  
   This notebook demonstrates how to implement linear regression using the normal equation, providing an efficient closed-form solution to the linear regression problem.
 
 - **Linear_Regression_Gradient_Descent.ipynb**  
   This notebook covers the implementation of linear regression using gradient descent optimization, including both batch gradient descent and stochastic gradient descent methods.
 
-### Gradient Descent
+### **Machine Learning Landscape**
+- **Machine_Learning_Landscape.ipynb**  
+  This notebook demonstrates a simple machine learning task on housing data, exploring basic concepts of model evaluation and performance.
 
-- **Batch_Gradient_Descent.ipynb**  
-  This notebook explores batch gradient descent, an optimization technique used to minimize the cost function of a linear model by updating the parameters based on the entire dataset in each iteration.
-
-- **Stochastic_Gradient_Descent.ipynb**  
-  This notebook demonstrates stochastic gradient descent, where the parameters are updated using one training example at a time, offering faster convergence, especially for large datasets.
-
-- **Mini_batch_Gradient_Descent.ipynb**  
-  This notebook explains mini-batch gradient descent, a compromise between batch and stochastic gradient descent, which uses a subset of the data for each iteration, balancing speed and accuracy.
-
-### Polynomial Regression
-
+### **Polynomial Regression**
 - **Polynomial_Regression.ipynb**  
   This notebook covers polynomial regression, showcasing the use of higher-degree polynomial features to capture non-linear relationships. It also discusses regularized models such as Ridge, Lasso, and Elastic Net to prevent overfitting and improve model generalization.
 
-### Classification
-
+### **Classification**
 - **Classification.ipynb**  
   This notebook covers the implementation of binary and multiclass classification using various models such as logistic regression and random forest. It also explores model performance evaluation through metrics like confusion matrix, precision, recall, F1 score, ROC curves, and error analysis using confusion matrix. Multilabel and multi-output classification are also explored.
 
