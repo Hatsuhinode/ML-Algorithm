@@ -4,11 +4,6 @@ Welcome to the Machine_Learning_Algorithms repository! This repository offers a 
 
 This repository is designed to help users understand, implement, and experiment with machine learning algorithms, giving them practical experience with different techniques and methods to build and evaluate models effectively.
 
----
-
-## 📘 Overview
-
-Here's the updated version of your **Overview** and **Notebooks Overview**, reflecting the changes in the repository structure:
 
 ---
 
